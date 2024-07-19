@@ -12,8 +12,8 @@ public class AppTest {
 	@Test
 	public void TestWithPositive() {
 		Arithmetic ar = new Arithmetic();
-		int expected = 400 ;
-		int actual 	 = ar.sum(200, 200);
+		int expected = 600 ;
+		int actual 	 = ar.sum(400, 200);
 		assertEquals(expected, actual);
 		
 	}
