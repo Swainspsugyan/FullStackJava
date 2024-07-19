@@ -9,12 +9,11 @@ import com.sp.service.Arithmetic;
 public class AppTest {
 	
 	
-	
 	@Test
 	public void TestWithPositive() {
 		Arithmetic ar = new Arithmetic();
-		int expected = 300 ;
-		int actual 	 = ar.sum(100, 200);
+		int expected = 400 ;
+		int actual 	 = ar.sum(200, 200);
 		assertEquals(expected, actual);
 		
 	}
